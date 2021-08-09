@@ -16,5 +16,15 @@
   <body>
     Index
     <a href="teste.html">teste</a>
+    <input id="teste" type="text"/>
+    <button value="vai!" onClick="teste()">
+    <p id="novo"></p>
+      
   </body>
+  <script>
+    function teste(){
+      var teste = document.getElementById("teste")
+      document.getElementById("novo").innerHTML = teste
+    }
+    </script>
 </html>
