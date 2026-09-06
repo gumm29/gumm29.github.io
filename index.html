@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7N1JHR07K"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-Z7N1JHR07K');
-    </script>
-    <meta charset="UTF-8" />
-    <title>index</title>
+    <meta charset="UTF-8">
+    <title>Anotacoes</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
   </head>
   <body>
-    <p>Index</p><br/>
-    <p id="novo"></p><br/><br/>
-    <a href="teste.html">teste</a>
-    <input id="teste" type="text"/>
-    <button onClick="teste()">teste</buton>     
-      <iframe src="teste.html" data-cy="the-frame"></iframe>
+    <H1>Anotacoes</H1>
+    <zero-md src="automacao.md"></zero-md>
   </body>
-  <script>
-    function teste(){
-      var teste = document.getElementById("teste").value
-      document.getElementById("novo").innerText = teste
-    }
-  </script>
 </html>
